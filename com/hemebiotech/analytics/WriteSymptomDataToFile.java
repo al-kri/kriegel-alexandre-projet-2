@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Map;
 
 public class WriteSymptomDataToFile implements ISymptomWriter {
-  
+
   @Override
   public void writeSymptoms(Map<String, Integer> symptoms) {
     
