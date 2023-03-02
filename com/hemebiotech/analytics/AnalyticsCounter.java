@@ -80,7 +80,7 @@ public class AnalyticsCounter {
     writer.writeSymptoms(symptoms);
   }
 
-	public static void main(String args[]) throws Exception {
+	/*public static void main(String args[]) throws Exception {
 		// first get input
 		BufferedReader reader = new BufferedReader (new FileReader("com/symptoms.txt"));
 		String line = reader.readLine();
@@ -115,5 +115,5 @@ public class AnalyticsCounter {
     System.out.println(rashCount);
     System.out.println(pupilCount);
 		writer.close();
-	}
+	}*/
 }
